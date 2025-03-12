@@ -1,0 +1,23 @@
+const leitura = require("prompt-sync") ();
+
+let nome = leitura("informe seu nome: ")
+
+console.log(nome);
+
+console.log("Bem-Vindo Pedro");
+
+let cor = leitura("Qual sua cor favorita: ")
+
+console.log(cor)
+
+let Filme = leitura("Qual seu filme favorito: ")
+
+console.log(Filme)
+
+let Cidade = leitura("Qual cidade você mora: ")
+
+console.log(Cidade)
+
+let Animal = leitura("Qual nome do seu animal de estimação: ")
+
+console.log(Animal)
